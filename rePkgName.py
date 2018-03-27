@@ -50,10 +50,10 @@ def _refactor(fileDir, src, dst):
 
 
 def refactor(rootDir, src, dst):
-	_refactor(rootDir + "/app/src/main/java", src, dst)
-	_refactor(rootDir + "/app/src/main/res", src, dst)
-	_refactor_file(rootDir + "/app/src/main/AndroidManifest.xml", src, dst)
-	_refactor_file(rootDir + "/app/proguard-rules.pro", src, dst)
+    _refactor(rootDir + "/app/src/main/java", src, dst)
+    _refactor(rootDir + "/app/src/main/res", src, dst)
+    _refactor_file(rootDir + "/app/src/main/AndroidManifest.xml", src, dst)
+    _refactor_file(rootDir + "/app/proguard-rules.pro", src, dst)
 
 
 if __name__=='__main__':
